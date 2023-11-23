@@ -1,0 +1,31 @@
+.App {
+  border: 1px solid black;
+  margin: 50px 30px;
+  padding: 25px 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container ul li {
+  width: 170px;
+  list-style: none;
+  overflow-wrap: break-word;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trash {
+  cursor: pointer;
+}
